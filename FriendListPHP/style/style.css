@@ -1,0 +1,118 @@
+@charset "utf-8";
+/*
+filemane: style.css
+author: CC
+student id: 103076376
+created: 24 Sep  2020
+last modified:24 Sep  2020
+description: 
+*/
+
+* {font-family: "Verdana", "Segoe UI", "Arial"}
+body, html {
+	margin: 0px;
+	height: 100%;
+	background-color: #dae1e7;
+}
+
+
+header {
+	padding: 0.1%;
+	background-color: #00a8cc;
+	font-size: 1.25em;
+	margin: 0px;
+	text-align: center;
+}
+
+header h1{
+	background-color: #27496d;
+	color: #00bcd4;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 50px;
+	
+}
+header a{
+	text-decoration: none;
+}
+
+#about, #intro{
+	padding: 2.5px 5px 5px 5px;
+	margin: 5%;
+	background-color: #b2ebf2;
+	border: double #00bcd4;
+	margin-bottom: 25%;
+	border-radius: 25px;
+}
+#about
+{
+	text-align: left;
+}
+
+#intro{
+	text-align: center;
+}
+header nav{
+	text-align: center;
+	margin: 0px;
+	display: inline;
+	text-decoration:none;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+header nav a{
+	margin: 2%;
+}
+header nav a:link, header nav a:visited{
+	color: #142850;
+}
+header nav a:hover{color: #27496d;}
+
+header nav a:active{color: #0c7b93;}
+
+.next{
+	display: inline-block;
+}
+
+#error{
+	color: red;
+}
+
+table,th,td{
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 10px;
+	margin-left:auto; 
+    margin-right:auto;
+	width:500px;
+}
+td, th {
+	font-size: 1.25em;
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	
+   
+}
+td{
+	width:50%;
+}
+button{
+	font-size: 1.5em;
+}
+
+.inside, ul {
+  list-style-type: none;
+}
+ul li ul
+{
+	list-style-type: circle;
+	
+}
+
+.table{
+	   padding: 0px; 
+}

@@ -1,0 +1,12 @@
+<?php
+session_start();
+session_unset($_SESSION["login"]);
+session_destroy($_SESSION["login"]);
+session_unset($_SESSION["Pname"]);
+session_destroy($_SESSION["Pname"]);
+session_unset($_SESSION["nofriends"]);
+session_destroy($_SESSION["nofriends"]);
+session_unset($_SESSION["id"]);
+session_destroy($_SESSION["id"]);
+header("location:index.php");
+?>
